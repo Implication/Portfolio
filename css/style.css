@@ -1,0 +1,44 @@
+#main-header img {
+  width: 100%;
+  height: 100%;
+}
+
+#projects img {
+  width: 100%;
+  height: 100%;
+}
+
+#main-header .port-item {
+  width: 30%;
+  height: 100%;
+}
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.bg-black {
+  color: #fff;
+  background: black;
+}
+
+footer {
+  height: 100% !important;
+}
+
+@media (min-width: 756px) {
+  #main-header img {
+    height: 363px;
+  }
+}
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 6em !important;
+  }
+
+  #main-header img {
+    height: 507px;
+  }
+}
