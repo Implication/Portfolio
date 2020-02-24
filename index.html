@@ -92,23 +92,26 @@
             </div>
             <div class="card card-body py-5">
                 <h3><strong>Education</strong></h3>
-                <p>I graduated in May 2018 with a degree in compuer science. Some of the highlights for me include, 
+                <p>I graduated in May 2018 with a degree in Computer Science. Some of the highlights for me include, 
                 </p>
                 <ul>
                     <li>
-                        Creating 2 Mobile Development Projects while working in teams
+                        I created  2 Mobile Development Projects while working in teams
                     </li>
                     <li>
-                        Learning about SDLC principles and applying them to projects
+                        I Learned  SDLC principles, and applied them to the mobile development projects above
                     </li>
                     <li>
-                        Learning about Networkign and creating asyncronous projects that interact in real time with file input based on networking principles
+                        I learned networking principles and used them to create asyncronous projects that interact in real time with file input based on networking principles
                     </li>
                     <li>
-                        Learning about OS in linux, creating stream projects in c++ that transferred files
+                        I learned about OS in linux, creating stream projects in c++ that transferred files
                     </li>
                     <li>
-                        Learning about how a compiler works, creating my own compiler
+                        I learned about how a compiler works, creating my own compiler in a group of three using the c++ language
+                    </li>
+                    <li>
+                        I learned about algorithms and datastructures, and use these as the core principles in order to create the web projects that I work on today
                     </li>
                 </ul>
                 Above all these, however, the most important skill that I have learned through college and what started my real journey is learning how to learn effectively and quickly
@@ -171,16 +174,42 @@
             <p class="lead">Everything that I have now, that I feel is complete</p>
         </div>
 
-        <div class="row">
-            <div class="col"><img src="images/portrait.jpg" alt=""></div>
-            <div class="col">
-                <h3>Title</h3>
-                <p>Summary</p>
+        <div class="row mb-5 mt-5 border">
+            <div class="col-xl-4"><img src="projectscreenshots/barchats.PNG" alt=""></div>
+            <div class="col-xl-4">
+                <h3>Barchats</h3>
+                <p>This is a podcast website of the podcast barchats that I created from a request made by my brother who needed a site that users can go to to consume the episodes of the podcast as well as  have links to other media outlets that the podcast is a part of. The main highlight for me in this website is using itunes API in order to fetch episode from the rss feed provided by buzzsprouts. I then use the rss feed that they provide and convert it into a readable json format using feednami, and parse the episodes out into the episode section. The technologies that I use for the project so far as HTML, CSS, Javascript, and Bootstrap. In the future as their podcast grows, eventually this may need an upgrade in th elanguages that are currently being used in order to prepare for scalability, so behind the scenes I set up a CMS known as siteleaf in the event that they want to eventually publish their own content onto the site.</p>
             </div>
-            <div class="col align-items-center d-flex justify-content-center">
-                link
+            <div class="col-xl-4 align-items-center d-flex justify-content-center">
+                <a href="http://barchats.net/" class="btn btn-warning">Website</a>
+                <a href="https://github.com/Implication/BarChats" class="btn btn-primary"> Github repository</a>
             </div>
         </div>
+        <div class="row mb-5 border">
+            <div class="col-xl-4"><img src="projectscreenshots/LeagueEkko.PNG" alt=""></div>
+            <div class="col-xl-4">
+                <h3>Ekko</h3>
+                <p>This is an information/entertainment website on the league of legends champion ekko, which i made solely because of my love for the game and my love for playing this champion. I did not make this as a intention of a guide for the champion but rather to inform users on basic setup during the current time of what are the best runes to take according to credible sources, his abilities and my own showcasing of feats that he is capable of when the champion is played at the highest levels. The main purpose of this was to learn and understand react at a fundamental level.</p>
+                <p>The Languages that I used for this project are HTML, CSS, Javascript, React, and Bootstrap</p>
+            </div>
+            <div class="col-xl-4 align-items-center d-flex justify-content-center">
+                <a href="https://implication.github.io/LeagueEkko/" class="btn btn-warning">Website</a>
+                <a href="https://github.com/Implication/LeagueEkko" class="btn btn-primary"> Github repository</a>
+            </div>
+        </div>
+        <div class="row mb-5 border">
+            <div class="col-xl-4"><img src="projectscreenshots/TechStore.PNG" alt=""></div>
+            <div class="col-xl-4">
+                <h3>Tech Store</h3>
+                <p>This is a mockup e-commerce website that sells basic tech itemsin the store. The main purpose of this project was to learn the fundamentals of HTML tags, creating a basic form, basic table, as well as understanding basic styling using CSS</p>
+                <p>The Languages that I used for this project are HTML and CSS</p>
+            </div>
+            <div class="col-xl-4 align-items-center d-flex justify-content-center">
+                <a href="https://implication.github.io/Tech-Store/" class="btn btn-warning">Website</a>
+                <a href="https://github.com/Implication/Tech-Store" class="btn btn-primary"> Github repository</a>
+            </div>
+        </div>
+
     </div>
     <div id="contact" class="collapse">
         <div class="card card-body bg-danger text-white py-5">
@@ -230,14 +259,11 @@
             </form>
         </div>
     </div>
-    <?php
-        echo "Hello World";
-    ?>
     <!-- Footer-->
     <footer id="main-footer" class="p-5 bg-dark text-white">
         <div class="row">
             <div class="col-md-6">
-                <a href="" class="btn btn-outline-light">
+                <a href="resume/resume.pdf" class="btn btn-outline-light">
                     <i class="fas fa-cloud"> Download Resume</i>
                 </a>
             </div>
@@ -260,3 +286,10 @@
     <script src="index.js"></script>
   </body>
 </html>
+
+<!--
+    Things that need to be done
+    Add projects onto the project dashboard
+    Relink github icon to github link
+    Add resume to the download button
+-->
